@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://c3ygxmos0epyd"]
+
+[ext_resource type="Script" path="res://scripts/SpaceShip.cs" id="1_2j8ct"]
+[ext_resource type="Texture2D" uid="uid://dh8m1nyk7o68r" path="res://assets/ship.png" id="2_60kn3"]
+
+[node name="SpaceShip" type="Node2D"]
+script = ExtResource("1_2j8ct")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+rotation = 1.5708
+texture = ExtResource("2_60kn3")

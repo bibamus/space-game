@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://dhaob5rvktdtc"]
+
+[ext_resource type="Script" path="res://scripts/SpaceController.cs" id="1_p6avr"]
+[ext_resource type="PackedScene" uid="uid://c3ygxmos0epyd" path="res://scenes/space_ship.tscn" id="2_cr5rk"]
+
+[node name="Space" type="Node2D"]
+script = ExtResource("1_p6avr")
+
+[node name="SpaceShip" parent="." instance=ExtResource("2_cr5rk")]
